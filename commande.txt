@@ -2,3 +2,10 @@ COMMANDE GIT
 Git est un logiciel de gestion de version et  permet la collaboration sur un projet,
 il fonction sur un modele distribuer tous les collaboratuers ont un historique du projet.
 
+
+Commande pour démarrer une zone de travail
+
+Commande  clone :
+Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s’utilise de la manière suivante :
+Git clone Lien_repository .
+
