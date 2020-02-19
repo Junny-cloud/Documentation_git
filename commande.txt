@@ -25,3 +25,9 @@ cette commande permet de déplacer ou renommer un fichier, un répertoire ou un 
 elle s'utilise de la maniere suivante :
 Git mv nom_fichier
 
+Commande restore :
+Cette commande permet de restaurer les fichiers du projet
+elle s'utilise de la maniere suivante :
+git restore 
+
+
