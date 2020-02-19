@@ -45,4 +45,7 @@ Afficher la liste des commits avec des details comme l'auteur ,la date et l'heur
 Elle s’utilise de la manière suivante :
 Git log
 
+La commande show :
+Affiche tous les details des commits sur un fichier 
+Git show nom_fichier
 
