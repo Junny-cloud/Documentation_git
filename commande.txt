@@ -13,4 +13,10 @@ Commande init :
 Cette commande permet de créer un repository Git vide ou réinitialiser un repository existant .Ainsi elle  initialise le projet pour qu'il soit considéré comme  un repository git après sa création.elle s’utilise de la manière suivante :
 git init .
 
+commande sur le changement du travail en cours
+
+commande add :
+cette commande permet d’ajouter le contenu du fichier à l'index .
+elle s’utilise de la manière suivante 
+git add nom_index . 
 
