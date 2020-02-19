@@ -1,0 +1,57 @@
+Git status 
+Cette commande nous permet de voir le status de notre repository , a savoir , si de nouveau fichier ont eté commit ou pas , ou encore si des fichiers ne sont pas tracké
+Git branch 
+Cette commande nous permet de créer une nouvelle branche elle s’utilise ainsi
+Git branch name_branch
+On peut verifier si notre branch a été créée avec 
+Git branch
+On peut aussi migrer vers la branche créée avec 
+Git checkout name_branch
+Git commit
+Git commit , nous permet de faire une sauvegarde , de la modication effectuée , de sorte a pouvoir y revenir plus tard.
+Elle se fait la plus part du temps , juste apres un git add
+La commande exact est :
+Git commit –m  ‘’ La description de la modification’’
+Git merge 
+Dans le cas ou nous avions créer une branche, et que nous voudrions la fusionner à la branche principale (master)
+Git reset
+Git reset nous permet de supprimer un commit et/ou les modifications qui y sont ont été associées, selon l’option envoyée , a savoir –hard pour supprimer le commit et aussi les modifications qui y sont associées
+Ou encore –soft pour concerver seulement les moficfications effectuées. 
+Ex :
+Git reset –hard HEAD nom_du_fichier_a_sruppimer
+Dans exemple nous supprimons le plus recent des commits ainsi que toutes les modification qui y sont ossociée
+Git switch
+Git switch , est un equivalent de git checkout branch_name, autrement  dit elle permet de switch entre les branches
+Exemple
+ git switch ma_branch
+tag
+
+Les tag sont un aspect simple de Git, elles vous permettent d'identifier des versions spécifiques de votre code. Vous pouvez considérer une balise comme une branche qui ne change pas . Une fois créé, il perd la possibilité de modifier l'historique des validations.
+Il existe deux types de balises dans Git : annotées et légères . 
+Balises annotées
+Les balises annotées stockent des métadonnées supplémentaires telles que le nom de l'auteur, les notes de publication, le message de balise et la date
+Les balises peuvent également inclure un message ou une annotation de balise plus descriptif, tout comme un message de validation lorsque vous êtes sur le point de fusionner 
+Ex : git tag -a name_tag
+Si vous souhaitez ajouter un tag-message, vous pouvez passer l'option -m, il s'agit d'une méthode similaire à git commit -m.
+Ex : git tag -a name-tag -m "desciption_tag"
+Étiquettes légères
+Les balises légères sont le moyen le plus simple d'ajouter une balise à votre référentiel git car elles ne stockent que le hachage du commit auquel elles se réfèrent
+Ex :
+git tag name_tag
+git-fetch
+Cette commande permettent de mettre à jour un répertoire local avec les données d'un repository distant.
+La commande git fetch va récupérer toutes les données des commits effectués sur la branche courante qui n'existent pas encore dans votre version en local. Ces données seront stockées dans le répertoire de travail local mais ne seront pas fusionnées avec votre branche locale. 
+Ex :
+git fetch –all
+git pull
+La commande git pull est en fait la commande qui regroupe les commandes git fetch suivie de git merge. Cette commande télécharge les données des commits qui n'ont pas encore été récupérées dans votre branche locale puis fusionne ensuite ces données .
+Ex : git pull origin master
+
+git push
+git push permet d’envoyer nos modifications effectuées en local sur notre repository en ligne 
+ex git push origin master
+git rebase
+Rebase est une façon, autre que git merge,  d'intégrer les changements d'une branche à l'autre. Rebase compresse toutes les modifications en un seul «patch». Il intègre ensuite le patch sur la branche cible.
+Ex :
+ git checkout feature
+ git rebase master
