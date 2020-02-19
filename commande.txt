@@ -9,3 +9,8 @@ Commande  clone :
 Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s’utilise de la manière suivante :
 Git clone Lien_repository .
 
+Commande init :
+Cette commande permet de créer un repository Git vide ou réinitialiser un repository existant .Ainsi elle  initialise le projet pour qu'il soit considéré comme  un repository git après sa création.elle s’utilise de la manière suivante :
+git init .
+
+
