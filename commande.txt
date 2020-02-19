@@ -20,3 +20,8 @@ cette commande permet d’ajouter le contenu du fichier à l'index .
 elle s’utilise de la manière suivante 
 git add nom_index . 
 
+commande mv :
+cette commande permet de déplacer ou renommer un fichier, un répertoire ou un lien symbolique.
+elle s'utilise de la maniere suivante :
+Git mv nom_fichier
+
