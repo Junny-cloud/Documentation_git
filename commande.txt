@@ -1,29 +1,29 @@
-<<<<<<< HEAD
+
 COMMANDE GIT
 Git est un logiciel de gestion de version et  permet la collaboration sur un projet,
 il fonction sur un modele distribuer tous les collaboratuers ont un historique du projet.
 
 
 
-Commande pour d�marrer une zone de travail
+Commande pour démarrer une zone de travail
 
 Commande  clone :
-Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s�utilise de la mani�re suivante :
+Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s’utilise de la manière suivante :
 Git clone Lien_repository .
 
 Commande init :
-Cette commande permet de cr�er un repository Git vide ou r�initialiser un repository existant .Ainsi elle  initialise le projet pour qu'il soit consid�r� comme  un repository git apr�s sa cr�ation.elle s�utilise de la mani�re suivante :
+Cette commande permet de créer un repository Git vide ou réinitialiser un repository existant .Ainsi elle  initialise le projet pour qu'il soit considéré comme  un repository git après sa création.elle s’utilise de la manière suivante :
 git init .
 
 commande sur le changement du travail en cours
 
 commande add :
-cette commande permet s'ajouter le contenu du fichier � l'index .
-elle s'utilise de la mani�re suivante
+cette commande permet s'ajouter le contenu du fichier à l'index .
+elle s'utilise de la manière suivante
 git add nom_index .
 
 commande mv :
-cette commande permet de d�placer ou renommer un fichier, un r�pertoire ou un lien symbolique.
+cette commande permet de déplacer ou renommer un fichier, un répertoire ou un lien symbolique.
 elle s'utilise de la maniere suivante :
 Git mv nom_fichier
 
@@ -32,7 +32,7 @@ Cette commande permet de restaurer les fichiers du projet
 elle s'utilise de la maniere suivante :
 git restore
 
-Les commandes pour examinez l'historique et l'�tat des fichiers
+Les commandes pour examinez l'historique et l'état des fichiers
 
 La commande bisect :
 Utilisez la recherche binaire pour trouver le commit qui a introduit un bogue. elle s'utilse de la maniere suivante:
@@ -44,7 +44,7 @@ Git diff cha_commit
 
 Comannde log :
 Afficher la liste des commits avec des details comme l'auteur ,la date et l'heure du commit et un cha qui est l'identifiant du commit.
-Elle s�utilise de la mani�re suivante :
+Elle s’utilise de la manière suivante :
 Git log
 
 La commande show :
@@ -52,59 +52,59 @@ Affiche tous les details des commits sur un fichier
 Git show nom_fichier
 
 Git status 
-Cette commande nous permet de voir le status de notre repository , a savoir , si de nouveau fichier ont eté commit ou pas , ou encore si des fichiers ne sont pas tracké
+Cette commande nous permet de voir le status de notre repository , a savoir , si de nouveau fichier ont etÃ© commit ou pas , ou encore si des fichiers ne sont pas trackÃ©
 Git branch 
-Cette commande nous permet de créer une nouvelle branche elle s’utilise ainsi
+Cette commande nous permet de crÃ©er une nouvelle branche elle sâ€™utilise ainsi
 Git branch name_branch
-On peut verifier si notre branch a été créée avec 
+On peut verifier si notre branch a Ã©tÃ© crÃ©Ã©e avec 
 Git branch
-On peut aussi migrer vers la branche créée avec 
+On peut aussi migrer vers la branche crÃ©Ã©e avec 
 Git checkout name_branch
 Git commit
-Git commit , nous permet de faire une sauvegarde , de la modication effectuée , de sorte a pouvoir y revenir plus tard.
+Git commit , nous permet de faire une sauvegarde , de la modication effectuÃ©e , de sorte a pouvoir y revenir plus tard.
 Elle se fait la plus part du temps , juste apres un git add
 La commande exact est :
-Git commit –m  ‘’ La description de la modification’’
+Git commit â€“m  â€˜â€™ La description de la modificationâ€™â€™
 Git merge 
-Dans le cas ou nous avions créer une branche, et que nous voudrions la fusionner à la branche principale (master)
+Dans le cas ou nous avions crÃ©er une branche, et que nous voudrions la fusionner Ã  la branche principale (master)
 Git reset
-Git reset nous permet de supprimer un commit et/ou les modifications qui y sont ont été associées, selon l’option envoyée , a savoir –hard pour supprimer le commit et aussi les modifications qui y sont associées
-Ou encore –soft pour concerver seulement les moficfications effectuées. 
+Git reset nous permet de supprimer un commit et/ou les modifications qui y sont ont Ã©tÃ© associÃ©es, selon lâ€™option envoyÃ©e , a savoir â€“hard pour supprimer le commit et aussi les modifications qui y sont associÃ©es
+Ou encore â€“soft pour concerver seulement les moficfications effectuÃ©es. 
 Ex :
-Git reset –hard HEAD nom_du_fichier_a_sruppimer
-Dans exemple nous supprimons le plus recent des commits ainsi que toutes les modification qui y sont ossociée
+Git reset â€“hard HEAD nom_du_fichier_a_sruppimer
+Dans exemple nous supprimons le plus recent des commits ainsi que toutes les modification qui y sont ossociÃ©e
 Git switch
 Git switch , est un equivalent de git checkout branch_name, autrement  dit elle permet de switch entre les branches
 Exemple
  git switch ma_branch
 tag
 
-Les tag sont un aspect simple de Git, elles vous permettent d'identifier des versions spécifiques de votre code. Vous pouvez considérer une balise comme une branche qui ne change pas . Une fois créé, il perd la possibilité de modifier l'historique des validations.
-Il existe deux types de balises dans Git : annotées et légères . 
-Balises annotées
-Les balises annotées stockent des métadonnées supplémentaires telles que le nom de l'auteur, les notes de publication, le message de balise et la date
-Les balises peuvent également inclure un message ou une annotation de balise plus descriptif, tout comme un message de validation lorsque vous êtes sur le point de fusionner 
+Les tag sont un aspect simple de Git, elles vous permettent d'identifier des versions spÃ©cifiques de votre code. Vous pouvez considÃ©rer une balise comme une branche qui ne change pas . Une fois crÃ©Ã©, il perd la possibilitÃ© de modifier l'historique des validations.
+Il existe deux types de balises dans Git : annotÃ©es et lÃ©gÃ¨res . 
+Balises annotÃ©es
+Les balises annotÃ©es stockent des mÃ©tadonnÃ©es supplÃ©mentaires telles que le nom de l'auteur, les notes de publication, le message de balise et la date
+Les balises peuvent Ã©galement inclure un message ou une annotation de balise plus descriptif, tout comme un message de validation lorsque vous Ãªtes sur le point de fusionner 
 Ex : git tag -a name_tag
-Si vous souhaitez ajouter un tag-message, vous pouvez passer l'option -m, il s'agit d'une méthode similaire à git commit -m.
+Si vous souhaitez ajouter un tag-message, vous pouvez passer l'option -m, il s'agit d'une mÃ©thode similaire Ã  git commit -m.
 Ex : git tag -a name-tag -m "desciption_tag"
-Étiquettes légères
-Les balises légères sont le moyen le plus simple d'ajouter une balise à votre référentiel git car elles ne stockent que le hachage du commit auquel elles se réfèrent
+Ã‰tiquettes lÃ©gÃ¨res
+Les balises lÃ©gÃ¨res sont le moyen le plus simple d'ajouter une balise Ã  votre rÃ©fÃ©rentiel git car elles ne stockent que le hachage du commit auquel elles se rÃ©fÃ¨rent
 Ex :
 git tag name_tag
 git-fetch
-Cette commande permettent de mettre à jour un répertoire local avec les données d'un repository distant.
-La commande git fetch va récupérer toutes les données des commits effectués sur la branche courante qui n'existent pas encore dans votre version en local. Ces données seront stockées dans le répertoire de travail local mais ne seront pas fusionnées avec votre branche locale. 
+Cette commande permettent de mettre Ã  jour un rÃ©pertoire local avec les donnÃ©es d'un repository distant.
+La commande git fetch va rÃ©cupÃ©rer toutes les donnÃ©es des commits effectuÃ©s sur la branche courante qui n'existent pas encore dans votre version en local. Ces donnÃ©es seront stockÃ©es dans le rÃ©pertoire de travail local mais ne seront pas fusionnÃ©es avec votre branche locale. 
 Ex :
-git fetch –all
+git fetch â€“all
 git pull
-La commande git pull est en fait la commande qui regroupe les commandes git fetch suivie de git merge. Cette commande télécharge les données des commits qui n'ont pas encore été récupérées dans votre branche locale puis fusionne ensuite ces données .
+La commande git pull est en fait la commande qui regroupe les commandes git fetch suivie de git merge. Cette commande tÃ©lÃ©charge les donnÃ©es des commits qui n'ont pas encore Ã©tÃ© rÃ©cupÃ©rÃ©es dans votre branche locale puis fusionne ensuite ces donnÃ©es .
 Ex : git pull origin master
 
 git push
-git push permet d’envoyer nos modifications effectuées en local sur notre repository en ligne 
+git push permet dâ€™envoyer nos modifications effectuÃ©es en local sur notre repository en ligne 
 ex git push origin master
 git rebase
-Rebase est une façon, autre que git merge,  d'intégrer les changements d'une branche à l'autre. Rebase compresse toutes les modifications en un seul «patch». Il intègre ensuite le patch sur la branche cible.
+Rebase est une faÃ§on, autre que git merge,  d'intÃ©grer les changements d'une branche Ã  l'autre. Rebase compresse toutes les modifications en un seul Â«patchÂ». Il intÃ¨gre ensuite le patch sur la branche cible.
 Ex :
  git checkout feature
  git rebase master
