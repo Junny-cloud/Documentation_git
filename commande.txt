@@ -40,4 +40,9 @@ La commande diff :
 Affiche les changements entre les commits, un commit  et le niveau actuelle du travail,
 Git diff cha_commit
 
+Comannde log :
+Afficher la liste des commits avec des details comme l'auteur ,la date et l'heure du commit et un cha qui est l'identifiant du commit.
+Elle s’utilise de la manière suivante :
+Git log
+
 
