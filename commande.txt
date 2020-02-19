@@ -34,5 +34,10 @@ Les commandes pour examinez l'historique et l'état des fichiers
 
 La commande bisect : 
 Utilisez la recherche binaire pour trouver le commit qui a introduit un bogue. elle s(utilse de la maniere suivante:
-git bisect 
+git bisect
+
+La commande diff :
+Affiche les changements entre les commits, un commit  et le niveau actuelle du travail,
+Git diff cha_commit
+
 
