@@ -30,4 +30,9 @@ Cette commande permet de restaurer les fichiers du projet
 elle s'utilise de la maniere suivante :
 git restore 
 
+Les commandes pour examinez l'historique et l'état des fichiers
+
+La commande bisect : 
+Utilisez la recherche binaire pour trouver le commit qui a introduit un bogue. elle s(utilse de la maniere suivante:
+git bisect 
 
