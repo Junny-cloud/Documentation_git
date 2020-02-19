@@ -1,37 +1,51 @@
-
-
 COMMANDE GIT
 Git est un logiciel de gestion de version et  permet la collaboration sur un projet,
 il fonction sur un modele distribuer tous les collaboratuers ont un historique du projet.
 
+
+
 Commande pour démarrer une zone de travail
+
 Commande  clone :
-Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s’itulise de la manière suivante :
+Cette commande permet de cloner un repository depuis sont git vers son pc locale ,elle s’utilise de la manière suivante :
 Git clone Lien_repository .
+
 Commande init :
 Cette commande permet de créer un repository Git vide ou réinitialiser un repository existant .Ainsi elle  initialise le projet pour qu'il soit considéré comme  un repository git après sa création.elle s’utilise de la manière suivante :
 git init .
+
 commande sur le changement du travail en cours
+
 commande add :
 cette commande permet d’ajouter le contenu du fichier à l'index .
-elle s’utilise de la manière suivante 
-git add nom_index . 
+elle s’utilise de la manière suivante
+git add nom_index .
+
 commande mv :
 cette commande permet de déplacer ou renommer un fichier, un répertoire ou un lien symbolique.
-Git mv nom_fichier 
+elle s'utilise de la maniere suivante :
+Git mv nom_fichier
+
 Commande restore :
-Cette commande permet de restaurer les fichiers du projet 
+Cette commande permet de restaurer les fichiers du projet
+elle s'utilise de la maniere suivante :
+git restore
 
 Les commandes pour examinez l'historique et l'état des fichiers
-La commande bisect 
-Utilisez la recherche binaire pour trouver le commit qui a introduit un bogue
+
+La commande bisect :
+Utilisez la recherche binaire pour trouver le commit qui a introduit un bogue. elle s(utilse de la maniere suivante:
+git bisect
+
 La commande diff :
 Affiche les changements entre les commits, un commit  et le niveau actuelle du travail,
-Git diff cha_commit 
+Git diff cha_commit
+
 Comannde log :
-Afficher la liste des commits
+Afficher la liste des commits avec des details comme l'auteur ,la date et l'heure du commit et un cha qui est l'identifiant du commit.
 Elle s’utilise de la manière suivante :
 Git log
+
 La commande show :
-Affiche tous les details des commits sur un fichier 
+Affiche tous les details des commits sur un fichier
 Git show nom_fichier
